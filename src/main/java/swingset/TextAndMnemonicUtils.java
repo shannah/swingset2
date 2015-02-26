@@ -1,3 +1,4 @@
+package swingset;
 /*
  *
  * Copyright (c) 2012, Oracle and/or its affiliates. All rights reserved.
@@ -30,6 +31,7 @@
  */
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 import java.util.ResourceBundle;
 
@@ -69,7 +71,7 @@ public class TextAndMnemonicUtils {
         bundle = ResourceBundle.getBundle("resources.swingset");
         properties = new Properties();
         try {
-            properties.load(TextAndMnemonicUtils.class.getResourceAsStream("resources/swingset.properties"));
+            properties.load(TextAndMnemonicUtils.class.getResourceAsStream("/resources/swingset.properties"));
         } catch (IOException ex) {
             System.out.println("java.io.IOException: Couldn't load properties from: resources/swingset.properties");
         }

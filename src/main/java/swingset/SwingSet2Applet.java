@@ -1,3 +1,4 @@
+package swingset;
 /*
  *
  * Copyright (c) 2007, Oracle and/or its affiliates. All rights reserved.
@@ -31,27 +32,48 @@
  */
 
 
-import javax.swing.plaf.*;
-import javax.swing.plaf.metal.*;
 import javax.swing.*;
+import javax.swing.event.*;
+import javax.swing.text.*;
 import javax.swing.border.*;
+import javax.swing.colorchooser.*;
+import javax.swing.filechooser.*;
+import javax.accessibility.*;
+
 import java.awt.*;
+import java.awt.event.*;
+import java.beans.*;
+import java.util.*;
+import java.io.*;
+import java.applet.*;
+import java.net.*;
 
 /**
- * This class describes a theme using "blue-green" colors.
  *
- * @author Steve Wilson
+ *
+ * @author Jeff Dinkins
  */
-public class AquaTheme extends DefaultMetalTheme {
 
-    public String getName() { return "Aqua"; }
+public class SwingSet2Applet extends JApplet {
+    public void init() {
+        getContentPane().setLayout(new BorderLayout());
+        getContentPane().add(new SwingSet2(this), BorderLayout.CENTER);
+    }
 
-    private final ColorUIResource primary1 = new ColorUIResource(102, 153, 153);
-    private final ColorUIResource primary2 = new ColorUIResource(128, 192, 192);
-    private final ColorUIResource primary3 = new ColorUIResource(159, 235, 235);
+    public URL getURL(String filename) {
+        URL codeBase = this.getCodeBase();
+        URL url = null;
 
-    protected ColorUIResource getPrimary1() { return primary1; }
-    protected ColorUIResource getPrimary2() { return primary2; }
-    protected ColorUIResource getPrimary3() { return primary3; }
+        try {
+            url = new URL(codeBase, filename);
+            System.out.println(url);
+        } catch (java.net.MalformedURLException e) {
+            System.out.println("Error: badly specified URL");
+            return null;
+        }
+
+        return url;
+    }
+
 
 }

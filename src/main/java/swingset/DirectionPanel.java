@@ -1,3 +1,4 @@
+package swingset;
 /*
  *
  * Copyright (c) 2007, Oracle and/or its affiliates. All rights reserved.

@@ -32,7 +32,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>SwingSet2</mainClass>
+							<mainClass>swingset.SwingSet2</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>
