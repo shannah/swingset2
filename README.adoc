@@ -1,6 +1,19 @@
-SwingSet2 demonstrates some of the abilities of the Swing User Interface
+= SwingSet2
+
+image::splash.png[Splash screen]
+
+This is a fork of the Oracle SwingSet2 app which demonstrates some of the abilities of the Swing User Interface
 Toolkit by displaying many of the components in a single showcase application.
-Use it to try out different components and features provided by Swing.
+
+This fork was made to demonstrate the use of https://www.jdeploy.com[jDeploy] to package Java apps as native apps.
+
+https://www.jdeploy.com/~jdeploy-demo-swingset2[Download SwingSet2 on jDeploy]
+
+
+
+
+== Source Instructions for SwingSet2
+
 
 
 ==================================
