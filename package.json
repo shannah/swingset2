@@ -5,13 +5,14 @@
   "main": "index.js",
   "preferGlobal": true,
   "repository": "https://github.com/shannah/swingset2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "jdeploy": {
     "jar": "target/swingset2-1.0-SNAPSHOT.jar",
-    "javaVersion" : 8
+    "javaVersion" : "8",
+    "title" : "SwingSet2"
   },
   "dependencies": {"shelljs": "^0.8.4", "njre": "^0.2.0"},
-  "license": "ISC",
+  "license": "GPLv2+Classpath Exception",
   "name": "jdeploy-demo-swingset2",
   "files": ["jdeploy-bundle"],
   "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}

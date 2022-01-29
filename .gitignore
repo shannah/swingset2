@@ -12,3 +12,4 @@ bin
 # Package Files #
 *.jar
 
+jdeploy-bundle
