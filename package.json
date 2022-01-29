@@ -1,0 +1,18 @@
+{
+  "bin": {"swingset2": "jdeploy-bundle/jdeploy.js"},
+  "author": "Oracle",
+  "description": "The Swing Sampler demo, packaged by jDeploy",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": "https://github.com/shannah/swingset2",
+  "version": "1.0.0",
+  "jdeploy": {
+    "jar": "target/swingset2-1.0-SNAPSHOT.jar",
+    "javaVersion" : 8
+  },
+  "dependencies": {"shelljs": "^0.8.4", "njre": "^0.2.0"},
+  "license": "ISC",
+  "name": "jdeploy-demo-swingset2",
+  "files": ["jdeploy-bundle"],
+  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+}
