@@ -5,7 +5,7 @@
   "main": "index.js",
   "preferGlobal": true,
   "repository": "https://github.com/shannah/swingset2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "jdeploy": {
     "jar": "target/swingset2-1.0-SNAPSHOT.jar",
     "javaVersion" : "8",
