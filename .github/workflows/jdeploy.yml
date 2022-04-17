@@ -29,10 +29,16 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - name: Set up jDeploy
       run: npm install -g jdeploy
+    - name: Set up Git Config
+      run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Publish with jDeploy
-      run: npm version "$GITHUB_REF_NAME" && jdeploy publish
+      run: |
+        npm version "$GITHUB_REF_NAME"
+        jdeploy publish
       env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       
