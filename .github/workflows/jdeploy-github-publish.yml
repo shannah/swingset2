@@ -25,6 +25,6 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Publish with jDeploy
       with: shannah/jdeploy/.github/actions/publish-github-release@master
-        release_tag: ${{ github.ref_name }}
-        github_token: ${{ github.token }}
+        release_tag: '${{ github.ref_name }}'
+        github_token: '${{ github.token }}'
       
