@@ -9,7 +9,9 @@
   "jdeploy": {
     "jar": "target/swingset2-1.0-SNAPSHOT.jar",
     "javaVersion" : "11",
-    "title" : "SwingSet2"
+    "title" : "SwingSet2",
+    "installers" : ["mac-x64", "mac-arm64", "win", "linux"],
+    "bundles": ["mac-x64", "mac-arm64", "win", "linux"]
   },
   "dependencies": {"shelljs": "^0.8.4", "njre": "^0.2.0"},
   "license": "GPLv2+Classpath Exception",
