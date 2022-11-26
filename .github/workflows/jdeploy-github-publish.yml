@@ -24,9 +24,9 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Publish with jDeploy
-      uses: shannah/jdeploy/.github/actions/publish-github-release@master
+      uses: shannah/jdeploy@master
       with:
         release_tag: '${{ github.ref_name }}'
         github_token: '${{ github.token }}'
-        jdeploy_version: '4.0.0-alpha.6'
+        jdeploy_version: '4.0.0-alpha.7'
       
