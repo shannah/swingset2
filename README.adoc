@@ -9,11 +9,13 @@ This fork was made to demonstrate the use of https://www.jdeploy.com[jDeploy] to
 
 https://www.jdeploy.com/~jdeploy-demo-swingset2[Download SwingSet2 on jDeploy]
 
+This uses github actions to publish using github releases.
 
+== Download Native Bundles
 
+- link:releases/tag/master[Master Latest]
 
 == Source Instructions for SwingSet2
-
 
 
 ==================================
