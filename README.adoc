@@ -7,13 +7,13 @@ Toolkit by displaying many of the components in a single showcase application.
 
 This fork was made to demonstrate the use of https://www.jdeploy.com[jDeploy] to package Java apps as native apps.
 
+== Release Downloads
+
 https://www.jdeploy.com/~jdeploy-demo-swingset2[Download SwingSet2 on jDeploy]
 
-This uses github actions to publish using github releases.
+== Snapshot Downloads
 
-== Download Native Bundles
-
-- link:/shannah/swingset2/releases/tag/master[Master Latest]
+https://github.com/shannah/swingset2/releases/tag/master[Master Branch]
 
 == Source Instructions for SwingSet2
 
