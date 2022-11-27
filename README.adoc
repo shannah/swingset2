@@ -13,7 +13,7 @@ This uses github actions to publish using github releases.
 
 == Download Native Bundles
 
-- link:releases/tag/master[Master Latest]
+- link:/shannah/swingset2/releases/tag/master[Master Latest]
 
 == Source Instructions for SwingSet2
 
