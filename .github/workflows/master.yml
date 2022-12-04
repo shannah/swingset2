@@ -24,7 +24,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Publish Master Branch with jDeploy
-        uses: shannah/jdeploy@4.0.0-alpha.20
+        uses: shannah/jdeploy@master
         with:
           github_token: '${{ github.token }}'
 
