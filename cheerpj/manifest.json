@@ -1,0 +1,16 @@
+{
+  "name": "SwingSet2",
+  "short_name": "SwingSet2",
+  "description": "SwingSet2 - The Next Generation Swing Application",
+  "start_url": "/swingset-jdeploy3",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
